@@ -180,7 +180,7 @@ module.exports = (_options = {}) => {
       running = false;
       try {
         Core.exit(1);
-      } catch(e) {
+      } catch (e) {
         console.log('catch core exit error', e);
       }
       Core = null;
